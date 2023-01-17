@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+
+    <h1>Login</h1>
+
+
+    <form action="">
+    <label for="Username">
+
+        Username:
+        <input type="text" name="Username" id="Username">
+
+
+    </label>
+    <label for="pass">
+            
+            Password:
+            <input type="password" name="pass" id="pass">
+
+
+        
+    </label>
+    <label for="email">
+
+        Email:
+        <input type="email" name="email" id="email">
+        
+    </label>
+    <label for="url">
+
+
+        Website:
+        <input type="url" name="url" id="url">
+
+    </label>
+    <label for="textarea">
+
+        Message:
+        <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+    </label>
+        <br>
+        <button type="submit" value="subir">Subir</button>
+        <button type="reset">Borrar</button>
+    </form>
+
+    <form action="">
+        <label for="selector">
+            <p>A <code>select</code> element allows users to input from a selection:</p>
+            <select id="selector">
+              <optgroup label="Group 1">
+                <option>Option 1</option>
+                <option>Option 2</option>
+              </optgroup>
+              <optgroup label="Group 2">
+                <option>Option 3</option>
+                <option>Option 4</option>
+              </optgroup>
+              <optgroup label="Group 3">
+                <option>Option 5</option>
+                <option>Option 6</option>
+              </optgroup>
+            </select>
+          </label>
+          <h3>What time is best to give you a call?</h3>
+          <label for="morning">
+            Morning
+            <input type="radio" id="morning" name="callTime" checked>
+          </label>
+          <label for="afternoon">
+            Afternoon
+            <input type="checkbox" id="afternoon" name="callTime" checked>
+          </label>
+          <label for="evening">
+            Evening
+            <input type="radio" id="evening" name="callTime">
+          </label>
+
+        
+    </form>
+</body>
+</html>
